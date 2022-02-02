@@ -3,8 +3,8 @@ import Layout from "@lekoarts/gatsby-theme-minimal-blog/src/components/layout"
 
 const NotFound = () => (
     <Layout>
-        <h1>404 - Page Not Found</h1>
-        <p>Unfortunately we couldn't find what you were looking for :(</p>
+        <h1>It ain't done yet!</h1>
+        <p>Check out my blog while I work on it, it'll be here eventually :P</p>
     </Layout>
 )
 

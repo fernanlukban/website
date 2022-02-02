@@ -21,6 +21,8 @@ module.exports = {
       resolve: `@lekoarts/gatsby-theme-minimal-blog`,
       // See the theme's README for all available options
       options: {
+        mdx: false,
+        formatString: `MM.DD.YYYY`,
         navigation: [
           {
             title: `Blog`,
@@ -45,6 +47,21 @@ module.exports = {
             url: `https://instagram.com/fernanlukban`,
           },
         ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-mdx`,
+      options: {
+        name: `recipes`,
+        extensions: [`.mdx`, `.md`],
+        path: `${__dirname}/content/recipes/`
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `recipes`,
+        path: `${__dirname}/content/recipes/`,
       },
     },
     {
