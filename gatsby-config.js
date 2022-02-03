@@ -35,6 +35,10 @@ module.exports = {
           {
             title: `Recipes`,
             slug: `/recipes`,
+          },
+          {
+            title: `Songs`,
+            slug: `/songs`,
           }
         ],
         externalLinks: [
